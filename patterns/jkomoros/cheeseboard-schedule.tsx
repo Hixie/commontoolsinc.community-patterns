@@ -348,7 +348,7 @@ const CheeseboardSchedule = pattern<
   ({ preferences, history }) => {
     // Fetch pizza schedule
     const cheeseBoardUrl =
-      "https://cheeseboardcollective.coop/home/pizza/pizza-schedule/";
+      "https://cheeseboardcollective.coop/pizza/pizza-schedule/";
     const { result, pending } = fetchData<WebReadResult>({
       url: "/api/agent-tools/web-read",
       mode: "json",
